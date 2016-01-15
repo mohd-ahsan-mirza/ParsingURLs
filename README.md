@@ -1,6 +1,3 @@
 # ParsingURLs
 
-This is my first python program. I have been learning the language for a few weeks now. The script simply goes to the HTML page of the
-input URL using BeautifulSoup.It then retrieves the href attribute value at a specific position from a list of "a" anchor tags.This process
-is repeated a number of times and the final value parsed through regex matching of the "a" anchor tag is the returned value.
-
+This is my first python program. I have been learning the language for a few weeks now. The program will use urllib to go and read the HTML using the input HTML string, extract the href= vaues from the anchor tags, scan for a tag that is in a particular position relative to the first name in the list, follow that link and repeat the process a number of times and return the last name found.
